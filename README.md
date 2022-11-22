@@ -1,8 +1,20 @@
+## env
+
+please copy the .env.example and change the name to .env.
+Fill it as you need.
+
 ## use
 
--   run npm run dev on repo folder to set up the node
-
--   run npm start on client folder to start the npm server
+```bash
+# install package
+npm install
+# start hardhat node
+npx hardhat start
+# deploy contract
+npx hardhat run scripts/deploy.js --network hardhat
+# start server
+cd client  && npm start
+```
 
 ## notice
 
